@@ -1,0 +1,17 @@
+body {
+    /*background-color: cornflowerblue;*/
+    background: url("../src/assets/catan_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        margin: 0px;
+        min-height: 100%;
+        width: 100%;
+    }
+}
